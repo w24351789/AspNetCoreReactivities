@@ -1237,19 +1237,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TED\\.nuget\\packages\\": {}
+    "C:\\Users\\atwta\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\atwta\\Desktop\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\TED\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Application\\obj\\",
+      "projectPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\atwta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\atwta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1262,11 +1266,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\Domain.csproj"
+            "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Persistence\\Persistence.csproj"
+            "C:\\Users\\atwta\\Desktop\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1289,12 +1293,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "NETStandard.Library.Ref",
-            "version": "[2.1.0, 2.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "NETStandard.Library": {
             "privateAssets": "all"

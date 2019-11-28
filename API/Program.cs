@@ -17,14 +17,15 @@ namespace API
         public static void Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
-            
-            using(var scope = host.Services.CreateScope())
+            //比較吃效能的呼叫放在using中，跑完就會從記憶體清除
+            using(var scope = host.Services.CreateScope()) 
             {
                 var services = scope.ServiceProvider;
                 try
                 {
-                    var cotext = services.GetRequiredService<DataContext>();
-                    cotext.Database.Migrate();
+                    var context = services.GetRequiredService<DataContext>();
+                    context.Database.Migrate();
+                    Seed.SeedData(context);
                 }
                 catch (Exception ex)
                 {

@@ -31,11 +31,14 @@ namespace API
             {
                 opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
             });
+            //允許跨域請求 Cross-Origin Requests
             services.AddCors(opt => {
                 
                 opt.AddPolicy("CorsPolicy", policy => 
                 {
-                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://locallhost:3000");
+                    policy.AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .WithOrigins("http://localhost:3000");
                 });
             });
             services.AddControllers();
@@ -53,9 +56,9 @@ namespace API
 
             
             
-            //app.UseRouting();
+            app.UseRouting();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
             app.UseCors("CorsPolicy");
 
