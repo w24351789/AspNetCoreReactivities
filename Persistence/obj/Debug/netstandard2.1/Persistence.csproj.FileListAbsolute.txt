@@ -9,3 +9,14 @@ C:\Users\atwta\Desktop\Reactivities\Persistence\obj\Debug\netstandard2.1\Persist
 C:\Users\atwta\Desktop\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
 C:\Users\atwta\Desktop\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
 C:\Users\atwta\Desktop\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\bin\Debug\netstandard2.1\Persistence.deps.json
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\bin\Debug\netstandard2.1\Persistence.dll
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\bin\Debug\netstandard2.1\Persistence.pdb
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csprojAssemblyReference.cache
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfoInputs.cache
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfo.cs
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
+C:\Users\TED\Desktop\dotnetcore\AspNetCoreReactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
