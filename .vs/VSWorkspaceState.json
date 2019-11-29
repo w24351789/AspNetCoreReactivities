@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\API\\Controllers",
     "\\Application",
     "\\Application\\Activities",
     "\\client-app"
   ],
-  "SelectedNode": "\\API",
+  "SelectedNode": "\\Application\\Activities\\List.cs",
   "PreviewInSolutionExplorer": false
 }
