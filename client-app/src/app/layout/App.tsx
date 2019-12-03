@@ -1,5 +1,5 @@
 import React, {useState, useEffect, Fragment} from 'react';
-import { Header, Icon, List, Container } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 import axios from 'axios';
 import { IActivity } from '../models/activity';
 import { NavBar } from '../../features/nav/NavBar';
@@ -13,6 +13,18 @@ const App = () => {
       setSelectedActivity(activities.filter(a => a.id === id)[0])
     }
     const [editMode, setEditMode] = useState(false)
+    const handleCreateOpenForm = () => {
+      setSelectedActivity(null)
+      setEditMode(true)
+    }
+
+    const handleCreateActivity = (activity: IActivity) => {
+      setActivities([...activities, activity])
+    }
+
+    const handleEditActivity = (activity: IActivity) => {
+      setActivities([...activities.filter(a => a.id !== activity.id), activity])
+    }
 
     useEffect(() => {
       axios.get('http://localhost:5000/api/activities')
@@ -24,13 +36,17 @@ const App = () => {
     return (
      
         <Fragment>
-          <NavBar />
+          <NavBar openCreateForm={handleCreateOpenForm} />
           <Container style={{marginTop: '7em'}}>
             <ActivityDashboard  activities={activities} 
                                 selectActivity={handleSelectedActivity} 
                                 selectedActivity={selectedActivity} 
                                 editMode={editMode}
-                                setEditMode={setEditMode}/>
+                                setEditMode={setEditMode}
+                                setSelectedActivity={setSelectedActivity}
+                                createActivity={handleCreateActivity}
+                                editActivity={handleEditActivity}
+                                 />
           </Container>   
         </Fragment>
     );

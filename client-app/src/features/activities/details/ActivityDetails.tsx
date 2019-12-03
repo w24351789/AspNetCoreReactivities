@@ -5,9 +5,10 @@ import { IActivity } from '../../../app/models/activity'
 interface IProps{
     activity: IActivity
     setEditMode: (editMode: boolean) => void
+    setSelectedActivity: (activities: IActivity |　null) =>　void
 }
 
-export const ActivityDetails : React.FC<IProps> = ({activity, setEditMode}) => {
+export const ActivityDetails : React.FC<IProps> = ({activity, setEditMode, setSelectedActivity}) => {
     return (
         <Card fluid>
             <Image src={`/assets/categoryImages/${activity.category}.jpg`} wrapped ui={false} />
@@ -23,7 +24,7 @@ export const ActivityDetails : React.FC<IProps> = ({activity, setEditMode}) => {
             <Card.Content extra>
                 <ButtonGroup widths={2}>
                     <Button onClick={() => setEditMode(true)} color='blue' basic content='Edit' />
-                    <Button color='grey' basic content='Cancel' />
+                    <Button onClick={() => setSelectedActivity(null)} color='grey' basic content='Cancel' />
                 </ButtonGroup>
             </Card.Content>
         </Card>
