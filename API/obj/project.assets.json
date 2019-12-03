@@ -8567,19 +8567,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TED\\.nuget\\packages\\": {}
+    "C:\\Users\\atwta\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\atwta\\Desktop\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\TED\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\API\\obj\\",
+      "projectPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\atwta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\atwta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8592,8 +8596,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Application\\Application.csproj"
+            "C:\\Users\\atwta\\Desktop\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Application\\Application.csproj"
             }
           }
         }
