@@ -1,0 +1,20 @@
+﻿
+@model IEnumerable<WebMVC.ViewModels.Activity>
+@{
+    ViewData["Title"] = "Activities";
+}
+
+<h1>Activities</h1>
+
+@foreach (var item in Model)
+{
+    <p>@Html.DisplayFor(modelItem => item.Id)</p>
+    <p>@Html.DisplayFor(modelItem => item.Title)</p>
+    <p>@Html.DisplayFor(modelItem => item.Date)</p>
+    <p>@Html.DisplayFor(modelItem => item.Category)</p>
+    <p>@Html.DisplayFor(modelItem => item.Description)</p>
+    <p>@Html.DisplayFor(modelItem => item.City)</p>
+    <p>@Html.DisplayFor(modelItem => item.Venue)</p>
+    
+}
+

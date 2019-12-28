@@ -9,7 +9,7 @@ namespace Application.Activities
 {
     public class Create
     {
-        public class Command : IRequest
+       public class Command : IRequest
         {
             public Guid Id { get; set; }
             public string Title { get; set; }
@@ -19,7 +19,6 @@ namespace Application.Activities
             public string City { get; set; }
             public string Venue { get; set; }
         }
-
         public class Handler : IRequestHandler<Command>
         {
             private readonly DataContext _context;
@@ -40,13 +39,16 @@ namespace Application.Activities
                     Date = request.Date,
                     City = request.City,
                     Venue = request.Venue
+
                 };
 
                 _context.Activities.Add(activity);
-                var success = await _context.SaveChangesAsync() > 0;
-                if (success) return Unit.Value;
 
-                throw new Exception("Something problem happened in saving");
+                var success = await _context.SaveChangesAsync() > 0;
+                if (success)
+                    return Unit.Value;
+
+                throw new Exception("Saving data problem");
             }
         }
     }
