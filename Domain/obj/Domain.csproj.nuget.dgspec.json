@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\Domain.csproj": {}
+    "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\atwta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atwta\\Desktop\\Reactivities\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\TED\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TED\\Desktop\\dotnetcore\\AspNetCoreReactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\atwta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TED\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -39,7 +36,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.0": {
           "imports": [
             "net461",
             "net462",
@@ -51,7 +48,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
